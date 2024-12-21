@@ -1,0 +1,39 @@
+IAbitsEnv/
+
+# Ignorar el archivo de la base de datos creada con SQLModel
+documents.db
+
+# Ignorar la base de datos de persistencia de Chroma
+Chroma_langchain_db/
+Chroma_langchain_db/*
+
+# Ignorar archivos específicos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar configuraciones de IDEs comunes
+.vscode/
+.idea/
+.env
+
+# Ignorar archivos y carpetas temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos temporales del sistema operativo
+*.swp           # Archivos swap de editores como Vim
+*.tmp           # Archivos temporales
+*.log           # Archivos de log
+*.bak           # Archivos de respaldo
+*.old           # Archivos antiguos
+~$*             # Archivos temporales de Microsoft Office
+Thumbs.db       # Miniaturas en Windows
+.DS_Store       # Archivos de metadatos en macOS
+Icon?           # Iconos generados automáticamente en macOS
+
+# Ignorar carpetas temporales comunes
+tmp/
+temp/
+.cache/
